@@ -4,11 +4,11 @@ const { Sequelize } = require('sequelize');
 
 require('dotenv').config();
 const sequelize = new Sequelize(
-    's4009171_fsd_a2',
-    's4009171_fsd_a2',
+    'root',
+    'root',
     'Didar1982',
     {
-        host: 'rmit.australiaeast.cloudapp.azure.com',
+        host: '34.129.78.155',
         dialect: 'mysql',
         port: 3306
     }
