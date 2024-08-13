@@ -4,11 +4,11 @@ const { Sequelize } = require('sequelize');
 
 require('dotenv').config();
 const sequelize = new Sequelize(
-    'root',
+    'test-db',
     'root',
     'Didar1982',
     {
-        host: '34.129.78.155',
+        host: '-app',
         dialect: 'mysql',
         port: 3306
     }
