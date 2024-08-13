@@ -1,0 +1,19 @@
+.banner {
+    background-color: #007bff;
+    height: 200px;
+    margin-bottom: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.back-button {
+    background-color: grey;
+    color: white;
+}
+
+.button-login {
+    background-color: grey;
+    color: white;
+}

@@ -1,0 +1,11 @@
+
+
+input, select {
+  width: 10%; /* Full width inside the container */
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+button {
+  margin-top: 20px; /* Space above the button */
+}

@@ -1,0 +1,70 @@
+.container {
+    max-width: 1200px; 
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px; 
+    margin-left: -15px; 
+}
+
+.col-md-4 {
+    position: relative;
+    width: 100%;
+    padding-right: 130px; 
+    padding-left: 15px; 
+    flex: 0 0 33.333333%; 
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 20px; 
+    height: 100%; 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+}
+
+.card-img-top {
+    width: 100%;
+    height: auto;
+    cursor: pointer; 
+}
+
+.card-body {
+    padding: 15px; 
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between; 
+}
+
+.AddCart, .RemoveCart {
+    background-color: grey;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer; 
+    margin-top: 10px; 
+    width: 100%; 
+}
+
+.pay {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    width: 100%;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+    font-size: larger;
+}
+
+

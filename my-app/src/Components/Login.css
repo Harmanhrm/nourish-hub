@@ -1,0 +1,35 @@
+* {
+    text-align: center;
+    box-sizing: border-box; 
+}
+.container {
+    margin-top: 100px;
+    width: 100%;
+    display: flex;  
+    flex-direction: column;  
+    align-items: center; 
+}
+.input_space {
+    width: 400%;  
+    margin-bottom: 20px; 
+}
+input {
+    height: 40px;
+    width: 100%; 
+    font-size: 18px;
+    padding: 0 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+button {
+    height: 35px;
+    width: 30%;
+    background-color: aquamarine;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+::placeholder {
+    color: #888;
+    opacity: 1; 
+}

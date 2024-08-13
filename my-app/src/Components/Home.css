@@ -1,0 +1,94 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+
+  /* first section*/
+  .jumbotron {
+    background-color: #77dd77; 
+    color: white;
+    padding: 100px 25px;
+    margin-bottom: 50px;
+  }
+
+  
+  /* About */
+  .container {
+    margin-top: 20px;
+  }
+  
+  .container p {
+    font-size: 16px;
+  }
+
+  /* Featured Products - Still working on*/ 
+  .card {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+  }
+  
+
+  .card:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-img-top {
+    width: 100%;
+    height: 200px; 
+    object-fit: cover; 
+  }
+  
+  .FeaturedProducts {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  
+  /* Contact Section */
+  .bg-light {
+    background-color: #f8f9fa !important;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+  }
+  
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .py-5 {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+  }
+  
+  .mb-3 {
+    margin-bottom: 1rem !important;
+  }
+
+  /* Shopping Section */
+  .ShoppingContent {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 100px;
+    margin-right: 100px;
+    font-weight: bold;
+  }
+  
+  .nextTo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
