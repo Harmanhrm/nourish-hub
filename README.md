@@ -1,19 +1,3 @@
-# Assignment 2 (React JS prototype)
-
-# General Information
-
-## Members
-* Jamie Jabbour (s3915878)
-* Harmandeep Singh (s4009171)
-
-## Code Records
-* Github repository: https://github.com/rmit-fsd-2024-s1/s3915878_s4009171-a2.git
-
-# .env file for phpmyadmin
-
-
-# My-App
-
 ## Frontend
 * Will need to run "cd my-app" before running
 * Run "npm install" in my-app/ to install dependencies
@@ -23,7 +7,7 @@
 * Will need to run "cd server" within "my-app" and then run "node server.js"
 * Are now using Sequalize instead of localStorage for our data by connecting to mySQL database or myadmin.
 * The connection is included inside our db.js file inside the server directory.
-* Included api credentials using a demo account on edamam (part of assignment 1 create a diet plan)
+* Included api credentials using a demo account on edamam 
 * Api functionality is required for dietplan demonstartion 
 
 ## Admin Dashboard
